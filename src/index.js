@@ -1,11 +1,11 @@
 import _ from "lodash";
 
-function component() {
-  const element = document.createElement("div");
+function App() {
+  const app = document.createElement("div");
 
-  element.innerHTML = _.join(["Hello", "webpack"], "-");
+  element.innerHTML = _.join(["Dropdown", "Menu"], " ");
 
-  return element;
+  return app;
 }
 
-document.body.appendChild(component());
+document.body.appendChild(App());
